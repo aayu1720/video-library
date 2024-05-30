@@ -1,0 +1,42 @@
+/* VideoItem.css */
+.video-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-item p {
+  margin: 0 0 10px;
+  font-size: 1em;
+}
+
+.video-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.video-actions button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+}
+
+.video-actions button:hover {
+  background-color: #0056b3;
+}
+
+.video-actions button:nth-child(3) {
+  background-color: #dc3545;
+}
+
+.video-actions button:nth-child(3):hover {
+  background-color: #c82333;
+}

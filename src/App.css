@@ -1,0 +1,29 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.controls button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}

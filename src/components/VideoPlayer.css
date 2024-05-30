@@ -1,0 +1,30 @@
+/* VideoPlayer.css */
+.video-player {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.video-player video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-player button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+.video-player button:hover {
+  background-color: #0056b3;
+}
